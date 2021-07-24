@@ -15,7 +15,14 @@
 
 }
 .key-word{
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.margin{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.card:hover{
+    background-color: rgb(7, 128, 175);
 }
