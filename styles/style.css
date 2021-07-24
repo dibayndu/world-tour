@@ -1,0 +1,21 @@
+
+
+
+.button{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.438);
+    padding: 8px 40px;
+    font-weight: 600;
+    color: #222;
+    box-shadow: 0 20px 20px 0px rgb(0 0 0 / 10%);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: inline-block;
+
+}
+.key-word{
+    font-size: 5.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
