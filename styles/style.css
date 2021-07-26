@@ -1,4 +1,7 @@
-
+.first-part-bg{
+    background-image: url(../images/mountain.jpg);
+    background-size: cover; background-repeat: no-repeat;
+}
 
 
 .button{
@@ -7,10 +10,11 @@
     padding: 8px 40px;
     font-weight: 600;
     color: #222;
-    box-shadow: 0 20px 20px 0px rgb(0 0 0 / 10%);
+    box-shadow: 20 20px 20px 20px rgb(14, 13, 13);
     border: 1px solid transparent;
     border-radius: 20px;
     margin-top: 30px;
+    margin-bottom: 30px;
     display: inline-block;
 
 }
@@ -25,4 +29,46 @@
 }
 .card:hover{
     background-color: rgb(7, 128, 175);
+}
+/* <!-- two div overlay start  -->  */
+.container-overlay{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.overlay{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/about-img.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    z-index: 1;
+    margin-right: -62px;
+    margin-top: 131px;
+    
+}
+.right{
+    width: 50%;
+    height: 600px;
+    background-color: blanchedalmond;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 95px;
+    border-radius: 8px;
+    box-shadow: white;
+    
 }
